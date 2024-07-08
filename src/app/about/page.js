@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
@@ -9,7 +10,6 @@ export default function Home() {
   <div className="--bs-info-border-subtle">
   <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-  <img src="https://media.istockphoto.com/id/1472000302/th/%E0%B9%80%E0%B8%A7%E0%B8%84%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C/%E0%B9%82%E0%B8%A5%E0%B9%82%E0%B8%81%E0%B9%89%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%8D%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%A7%E0%B8%81%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C.jpg?s=612x612&w=0&k=20&c=pKa6jTJQ7RLuyqHXEC8WPBBzhAo1DypIh0UTPbki1N4=" className="img me-3" width={60} alt="..." />
   <a className="navbar-brand" href="/">Home</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -17,7 +17,7 @@ export default function Home() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/about">About</a>
+          <a className="nav-link active" aria-current="page" href="/">About</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Servic</a>
